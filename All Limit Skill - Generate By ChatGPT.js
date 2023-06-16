@@ -3,7 +3,7 @@
 // TEST RESULT : - 
 // ChatGPT
 /*:
- * @plugindesc All Limit Skill - RPG Maker MV Plugin
+ * @plugindesc ChatGPT Generate - RPG Maker MV Plugin
  *
  * @param All Limit Icon
  * @desc The icon index used to represent the All Limit skill.
@@ -32,7 +32,10 @@
  *   None
  *
  * Terms of Use:
- * - This plugin can be used in commercial and non-commercial projects.
+ * - This plugin is licensed under the MIT License:
+ *   https://opensource.org/licenses/MIT
+ * - You are free to use, modify, and distribute this plugin for both commercial
+ *   and non-commercial projects.
  * - Attribution is not required, but appreciated.
  *
  * @param ---End of Help---
