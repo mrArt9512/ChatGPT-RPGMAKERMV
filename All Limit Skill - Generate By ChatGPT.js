@@ -1,4 +1,6 @@
 // RPG Maker MV Plugin: All Limit Skill
+// TEST STATUS : NO
+// TEST RESULT : - 
 // ChatGPT
 /*:
  * @plugindesc All Limit Skill - RPG Maker MV Plugin
