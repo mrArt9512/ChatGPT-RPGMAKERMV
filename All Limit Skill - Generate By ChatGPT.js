@@ -1,5 +1,42 @@
 // RPG Maker MV Plugin: All Limit Skill
 // ChatGPT
+/*:
+ * @plugindesc All Limit Skill - RPG Maker MV Plugin
+ *
+ * @param All Limit Icon
+ * @desc The icon index used to represent the All Limit skill.
+ * @default 0
+ *
+ * @help
+ * This plugin allows you to create All Limit skills in your RPG Maker MV game.
+ * All Limit skills consume a percentage of the total TP of all party members
+ * except the user.
+ *
+ * To set up an All Limit skill, use the following notetag in the skill's note field:
+ *   <AllLimit: x>
+ *   - Replace 'x' with the level of the All Limit skill.
+ *   - The All Limit skill level determines the TP percentage required from the party.
+ *
+ * Additionally, you can specify a custom TP cost for the All Limit skill by using
+ * the following notetag in the skill's note field:
+ *   <TP: y>
+ *   - Replace 'y' with the TP cost for the All Limit skill.
+ *   - If not specified, the skill will consume the default TP cost.
+ *
+ * Note: Make sure to set up the skill type and assign it to the appropriate actors
+ * in the database.
+ *
+ * Plugin Commands:
+ *   None
+ *
+ * Terms of Use:
+ * - This plugin can be used in commercial and non-commercial projects.
+ * - Attribution is not required, but appreciated.
+ *
+ * @param ---End of Help---
+ * @default
+ *
+ */
 (function() {
   // VAR All Limit Save
   var totalAllLimitTP = 0;
